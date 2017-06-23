@@ -37,7 +37,7 @@ var where_am_i = __dirname;
 console.log(where_am_i)
 mongoose.connect('mongodb://localhost/tenp-jwt');
 //REMOTE (CHANGE THIS! NEW USER AND PWD, AND DON'T SHOW THE PWD!)
-// mongoose.connect('mongodb://bert:g7je6vPPx9shTGed@ec2-52-33-185-209.us-west-2.compute.amazonaws.com:27017/tenp');
+
 
 app.use(cors())
 var routes = require('./config/routes')

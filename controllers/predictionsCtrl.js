@@ -1,4 +1,4 @@
-var Prediction = require('../models/predictionMod.js');
+var Prediction = require('../models/predictionMod');
 var bodyParser = require('body-parser');
 
 
